@@ -32,7 +32,8 @@ GET /api/v3/cities/{id}
 Please provide the design for:
 - endpoint/s to set the forecast for a specific city
 
-`POST /api/v3/forecast/cities/{id}
+```
+POST /api/v3/forecast/cities/{id}
 
 "forecast": {
     "forecastday": [
@@ -1015,11 +1016,12 @@ Please provide the design for:
   }
 
 Response -- Add the forecast detail for specific city
-`
+```
 
 
 - endpoint/s to read the forecast for a specific city
-`
+
+```
 GET /api/v3/forecast/cities/{id}
 
 Response forecast detail
@@ -2003,7 +2005,7 @@ Response forecast detail
       }
     ]
   }
-`
+```
 
 
 Please consider that we need to answer questions like : 
