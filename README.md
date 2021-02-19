@@ -8,15 +8,17 @@ Code completed
 
 #### Run through command line
 
+```
 go build
 run ./musement
-
+```
 
 #### Using Docker
 
+```
 docker build -t dockerfile .
 docker run image
-
+```
 
 
 
