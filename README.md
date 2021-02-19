@@ -2011,8 +2011,32 @@ Response forecast detail
 Please consider that we need to answer questions like : 
 
  - What's the weather in [city] for today ?
+
+  ```
+  GET 
+  http://api.weatherapi.com/v1/forecast.json?key=796b9a1d3bba40dcb2a94114211802&q=52.374,4.9&days=1
+
+  Response fetch weather for a day
+  ```
+
+
  - What's the weather in [city] for tomorrow ? 
+
+  ```
+  GET
+  http://api.weatherapi.com/v1/forecast.json?key=796b9a1d3bba40dcb2a94114211802&q=52.374,4.9&days=2
+
+  Response fetch weather for day 2.
+  ```
+
  - What's the weather in [city] for [day] ?
+
+  ```
+  GET
+  http://api.weatherapi.com/v1/forecast.json?key=796b9a1d3bba40dcb2a94114211802&q=52.374,4.9&days=day
+
+  Response fetch weather for day.
+  ```
 
 For each endpoint provide all required information: endpoint, payload, possible responses etc and description about the behavior.
 
